@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Skjold Home</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png" />
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png" />
+    <link rel="manifest" href="./site.webmanifest" />
+
+    <link rel="stylesheet" href="./css/index_styles.css" />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-expand-md navbar-expand-sm navbar-dark">
+        <div class="container">
+          <a class="navbar-brand p-0" tabindex="7" href="/">
+            <img
+              src="../images/Skjøld 2.png"
+              alt="Скйольд Головна"
+              class="img-fluid scale"
+              width="100"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse navbar-fixed-top" id="navbarNav">
+            <div class="navbar-inner">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="/" tabindex="8">Головна</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" tabindex="9">Новини</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" tabindex="10">Переклади</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" tabindex="11">Германські тексти</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Funny Vids.html" tabindex="12">Переозвучка</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" tabindex="13">Контакти</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="heading">
+        <h1>SKJØLDUNGA HØLL</h1>
+        <h5>авторський сайт</h5>
+      </div>
+      <hr size="5" color="white" />
+
+      <div class="container">
+        <div class="row">
+          <form class="form" autocomplete="on">
+            <fieldset>
+              <div class="form-floating mb-3">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="floatingInput"
+                  autofocus
+                  placeholder="example@gmail.com"
+                  tabindex="1"
+                />
+                <label for="floatingInput">Email</label>
+              </div>
+              <div class="form-floating">
+                <input
+                  type="password"
+                  class="form-control"
+                  id="floatingPassword"
+                  placeholder="Пароль"
+                  tabindex="2"
+                />
+                <label for="floatingPassword">Пароль</label>
+              </div>
+              <div>
+                <button type="submit" class="btn btn-login btn-sm" tabindex="3">Увійти</button>
+                <a href="/" class="btn btn-register btn-sm" tabindex="4">Реєстрація</a>
+              </div>
+              <div class="text-center">
+                <a href="/" class="external-link" tabindex="5">Забули пароль?</a>
+              </div>
+            </fieldset>
+          </form>
+
+          <figure class="slider">
+            <div id="carouselSlider" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner" tabindex="14">
+                <div class="carousel-item active" data-bs-interval="10000">
+                  <img
+                    src="images/main slider/Skefsson 1.jpg"
+                    class="d-block w-100 img-fluid scale"
+                    alt="Skjold Skefsson"
+                  />
+                </div>
+                <div class="carousel-item" data-bs-interval="5000">
+                  <img
+                    src="images/main slider/Thumbnail Germ 1.JPG"
+                    class="d-block w-100 img-fluid scale"
+                    alt="Германістика 1"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="images/main slider/Thumbnail HistOfEng 1.jpg"
+                    class="d-block w-100 img-fluid scale"
+                    alt="Історія англійської мови 1"
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselSlider"
+                data-bs-slide="prev"
+              >
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselSlider"
+                data-bs-slide="next"
+              >
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <figcaption>
+              Сайт лінгвіста-германіста, перекладача та відеоблогера<br />
+              Скйольда Скефссона
+            </figcaption>
+          </figure>
+
+          <div class="references">
+            <a href="https://www.patreon.com/skjold_skefsson" target="_blank" tabindex="15">
+              <img src="../images/Patreon.png" alt="Посилання на Patreon" class="img-fluid scale" />
+            </a>
+            <br />
+            <a href="https://skjold-skefsson.diaka.ua/donate" target="_blank" tabindex="16">
+              <img src="../images/Diaka.png" alt="Посилання на Diaka" class="img-fluid scale" />
+            </a>
+            <a
+              href="https://www.youtube.com/c/SkjoldSkefssonOfficial"
+              target="_blank"
+              tabindex="17"
+            >
+              <img src="images/YouTube.png" alt="Посилання на YouTube" class="img-fluid scale" />
+            </a>
+            <br />
+            <a href="https://www.instagram.com/skjold_skefsson/" target="_blank" tabindex="18">
+              <img
+                src="../images/Instagram.png"
+                alt="Посилання на Instagram"
+                class="img-fluid scale"
+              />
+            </a>
+            <br />
+            <a href="https://t.me/skjold_skefsson" target="_blank" tabindex="19">
+              <img
+                src="../images/Telegram.png"
+                alt="Посилання на Telegram"
+                class="img-fluid scale"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="container text-center">
+      <div class="row">
+        <h4>Оберіть тему, яка вас цікавить:</h4>
+      </div>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+        <div class="col">
+          <div class="card">
+            <a href="./g0.html">
+              <img
+                src="./images/Card 1.jpg"
+                class="card-img-top img-fluid"
+                alt="Германські воїни"
+              />
+            </a>
+            <div class="card-body">
+              <h5>Германське мовознавство:</h5>
+              <p>
+                Звідки походять германці та германські мови? Як розвивалася германська фонетика,
+                лексика та граматика?
+              </p>
+            </div>
+            <a href="./g0.html" class="btn" tabindex="20">Дізнатися більше</a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <a href="/">
+              <img
+                src="../images/Card 2.jpg"
+                class="card-img-top img-fluid"
+                alt="Германські воїни"
+              />
+            </a>
+            <div class="card-body">
+              <h5>Історія англійської мови:</h5>
+              <p>
+                Як виникла й розвинулася англійська мова? Звідки у цій мові так багато дивних та
+                цікавих речей?
+              </p>
+            </div>
+            <a href="/" class="btn" tabindex="21">Дізнатися більше</a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <a href="/">
+              <img
+                src="../images/Card 3.jpg"
+                class="card-img-top img-fluid"
+                alt="Германські воїни"
+              />
+            </a>
+            <div class="card-body">
+              <h5>Релігія давніх германців:</h5>
+              <p>Про язичницьких богів давніх германців та їхні релігійні вірування.</p>
+            </div>
+            <a href="/" class="btn" tabindex="22">Дізнатися більше</a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <a href="/">
+              <img
+                src="../images/Card 4.jpg"
+                class="card-img-top img-fluid"
+                alt="Германські воїни"
+              />
+            </a>
+            <div class="card-body">
+              <h5>Роздуми й переклади:</h5>
+              <p>
+                Авторські роздуми щодо певних особливостей мов та переклади літературних творів.
+              </p>
+            </div>
+            <a href="/" class="btn" tabindex="23">Дізнатися більше</a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <a href="/">
+              <img
+                src="../images/Card 5.jpg"
+                class="card-img-top img-fluid"
+                alt="Германські воїни"
+              />
+            </a>
+            <div class="card-body">
+              <h5>Загальне мовознавство:</h5>
+              <p>
+                Авторські пояснення окремих тем загального мовознавства, що зачіпають усі мови в
+                цілому.
+              </p>
+            </div>
+            <a href="/" class="btn" tabindex="24">Дізнатися більше</a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <a href="/">
+              <img
+                src="../images/Card 6.jpg"
+                class="card-img-top img-fluid"
+                alt="Германські воїни"
+              />
+            </a>
+            <div class="card-body">
+              <h5>Лінгвофрики та псевдолінгвістика:</h5>
+              <p>
+                Викриваємо й пояснюємо недолугість так званої "любительської лінгвістики" та
+                сміємося над шарлатанами у цій галузі.
+              </p>
+            </div>
+            <a href="/" class="btn" tabindex="25">Дізнатися більше</a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <hr size="5" color="white" />
+  </body>
+  <footer>
+    <div class="row">
+      <div class="col">
+        <p>
+          Цей сайт здебільшого присвячений питанням мовознавства, історичного мовознавства,
+          германської історії, міфології й лінгвістики. Проте це не вичерпний перелік тем - на
+          каналі є й розважальний контент українською мовою лінгвістичної спрямованості.
+        </p>
+        <p>
+          This channel is dedicated to various matters connected with linguistics, hitorical
+          linguistics, Germanic history, mythology and languages. However, this is not an exhaustive
+          list of topics for the channel has entertaining content as well, in the Ukrainian language
+          and linguistically inclined though.
+        </p>
+      </div>
+      <div class="col">
+        <p>
+          Щодо співробітництва та інших питань, будь-ласка, пишіть на email / For cooperation and
+          other questions, please, contact us via email:
+          <a href="/" class="external-link">skjold_skefsson@ukr.net</a>
+        </p>
+        <p>
+          Ви також можете підтримати розвиток сайту за такими посиланнями / You can also support
+          this website via the following links: <br /><br />
+          Patreon:
+          <a href="https://www.patreon.com/skjold_skefsson" class="external-link" target="_blank"
+            >https://www.patreon.com/skjold_skefsson</a
+          >
+          <br /><br />
+          Дяка:
+          <a href="https://skjold-skefsson.diaka.ua/donate" class="external-link" target="_blank"
+            >https://skjold-skefsson.diaka.ua/donate</a
+          >
+        </p>
+      </div>
+    </div>
+  </footer>
+</html>

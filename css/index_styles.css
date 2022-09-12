@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Roboto+Slab:wght@300;400&display=swap");
+
+body {
+  background: rgba(0, 28, 39, 0.811) url(https://picsum.photos/id/1019/1500);
+  color: #fff;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: repeat-x;
+  font-family: "Roboto Slab", serif;
+  letter-spacing: 1.5px;
+  text-shadow: rgb(2, 24, 63) 2px 2px 2px;
+  font-size: 1em;
+}
+
+nav {
+  letter-spacing: 2px;
+  width: 100%;
+}
+.navbar {
+  position: fixed;
+  background: rgba(0, 28, 39, 0.811);
+  z-index: 999999;
+}
+
+.heading {
+  padding-top: 90px;
+  text-align: center;
+}
+
+h1 {
+  font-weight: bolder;
+  font-size: 5vw;
+  font-family: "Gideon Roman";
+  letter-spacing: 3px;
+}
+
+h5 {
+  font-size: 2vw;
+}
+
+hr {
+  margin-bottom: 20px;
+}
+
+.carousel-inner {
+  border-radius: 10px;
+  margin-bottom: 10px;
+  box-shadow: rgba(0, 28, 39, 0.811) 1px 1px 8px 1px;
+  box-sizing: border-box;
+}
+
+.carousel-inner img {
+  max-width: 40em;
+  max-height: 20em;
+  opacity: 0.7;
+}
+
+figcaption {
+  text-align: center;
+  font-size: 1.4vw;
+}
+
+.scale {
+  transition: 1s;
+}
+.scale:hover {
+  transform: scale(1.1);
+}
+
+.slider {
+  max-width: 60%;
+}
+
+.form,
+.references {
+  max-width: 20%;
+}
+
+form {
+  padding: 50px 0;
+}
+
+fieldset div:nth-child(2) {
+  padding-bottom: 15px;
+}
+
+.form-floating {
+  max-width: 100%;
+  max-height: 30%;
+}
+
+.form-control {
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: rgba(0, 28, 39, 0.811);
+  font-size: 1.4vw;
+}
+
+.form-control:focus {
+  background-color: transparent;
+  box-shadow: none;
+  border: 1px solid #fff;
+  color: #fff;
+  font-size: 1.4vw;
+}
+
+.btn-login {
+  background: rgba(0, 28, 39, 0.811);
+  color: #fff;
+  font-size: small;
+  border: transparent;
+  margin-bottom: 5px;
+}
+
+.btn-login:hover {
+  border: transparent;
+  background: rgba(0, 28, 39, 0.287);
+  box-shadow: #fff 1px 1px 4px;
+}
+
+.btn-register {
+  background: rgba(0, 28, 39, 0.638);
+  color: #fff;
+  font-size: small;
+  letter-spacing: 0.5px;
+  border: transparent;
+  margin-bottom: 5px;
+}
+
+.btn-register:hover {
+  border: transparent;
+  background: rgba(0, 28, 39, 0.287);
+  box-shadow: #fff 1px 1px 4px;
+}
+
+.btn-login:active,
+.btn-register:active {
+  border: 1px solid #fff;
+  background: rgba(0, 28, 39, 0.287);
+}
+
+.external-link {
+  color: #fff;
+  font-size: small;
+  text-decoration: underline;
+}
+
+.external-link:hover {
+  color: rgba(0, 28, 39, 0.811);
+  text-decoration: none;
+}
+
+.external-link:active {
+  color: #fff;
+  text-decoration: none;
+}
+
+.references img {
+  max-width: 70%;
+  margin: 15px;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+h4 {
+  padding-bottom: 20px;
+}
+
+.card {
+  display: inline-block;
+  overflow: hidden;
+  height: 50em;
+  margin-bottom: 20px;
+  background: rgba(0, 28, 39, 0.287);
+  box-shadow: rgb(2, 24, 63) 2px 2px 2px;
+}
+
+.card:hover {
+  background: rgba(0, 28, 39, 0.811);
+}
+
+.card img {
+  transition: 1s;
+  display: block;
+  padding: 10px;
+  border-radius: 15px;
+  width: 20em;
+  height: 30em;
+  margin: auto;
+}
+
+.card img:hover {
+  transform: scale(1.1);
+}
+
+.card-body {
+  height: 3em;
+  padding-bottom: 15em;
+}
+
+.card-body h5 {
+  font-size: 1.5em;
+  padding-bottom: 5px;
+}
+
+.card .btn {
+  color: #fff;
+}
+
+.card .btn:hover {
+  box-shadow: #fff 1px 1px 10px;
+}
+
+.card .btn:active {
+  border: none;
+  box-shadow: none;
+}
+
+footer {
+  padding: 30px;
+  font-size: smaller;
+  text-align: justify;
+  margin-bottom: 50px;
+}
