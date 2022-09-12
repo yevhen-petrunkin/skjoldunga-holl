@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Roboto+Slab:wght@300;400&display=swap");
+
+body {
+  background: rgba(0, 179, 255, 0.865) url(https://picsum.photos/id/1019/1500);
+  color: #fff;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: repeat-x;
+  font-family: "Roboto Slab", serif;
+  letter-spacing: 1.5px;
+  text-shadow: rgb(2, 24, 63) 2px 2px 2px;
+  font-size: 1em;
+}
+
+nav {
+  letter-spacing: 2px;
+  width: 100%;
+}
+
+.navbar {
+  position: fixed;
+  background: rgba(0, 28, 39, 0.811);
+  z-index: 999999;
+}
+
+.heading {
+  padding-top: 90px;
+  text-align: center;
+}
+
+h1 {
+  font-weight: bolder;
+  font-size: 5vw;
+  font-family: "Gideon Roman";
+  letter-spacing: 3px;
+}
+
+h5 {
+  font-size: 2vw;
+}
+
+hr {
+  margin-bottom: 20px;
+}
+
+.scale {
+  transition: 1s;
+}
+.scale:hover {
+  transform: scale(1.1);
+}
+
+footer {
+  padding: 40px;
+  font-size: smaller;
+  text-align: justify;
+  margin-bottom: 80px;
+}
+
+.external-link {
+  color: #fff;
+  font-size: small;
+  text-decoration: underline;
+}
+
+.external-link:hover {
+  color: rgba(0, 28, 39, 0.811);
+  text-decoration: none;
+}
+
+.external-link:active {
+  color: #fff;
+  text-decoration: none;
+}
+
+.references {
+  max-width: 100%;
+  margin: 20px;
+  text-align: center;
+  display: inline-block;
+}
+
+.references img {
+  max-width: 13%;
+}
+
+.references a {
+  text-decoration: none;
+}
