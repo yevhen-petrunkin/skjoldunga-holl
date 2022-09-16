@@ -1,13 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Roboto+Slab:wght@300;400&display=swap");
-
 body {
   background: rgba(0, 179, 255, 0.865) url(https://picsum.photos/id/1019/1500);
   color: #fff;
   background-size: cover;
   background-attachment: fixed;
   background-repeat: repeat-x;
-  font-family: "Roboto Slab", serif;
+  font-family: 'Roboto Slab', serif;
   letter-spacing: 1.5px;
   text-shadow: rgb(2, 24, 63) 2px 2px 2px;
   font-size: 1em;
@@ -32,7 +29,7 @@ nav {
 h1 {
   font-weight: bolder;
   font-size: 5vw;
-  font-family: "Gideon Roman";
+  font-family: 'Gideon Roman';
   letter-spacing: 3px;
 }
 
